@@ -1,0 +1,121 @@
+*{border:0px; margin:0px; padding:0px; box-sizing: border-box;}
+a:link{text-decoration: none;}
+a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:active{text-decoration: none;}
+
+
+
+.s{clear: both; display:block;}
+.imagen{max-width:100%;}
+
+
+
+body{
+font-family: Century Gothic, Arial;
+    font-size: 1.5em;
+    color:#FFF;
+	 margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+
+}
+
+
+
+
+ 
+
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+	background-attachment:fixed;
+	top:0px;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+ height:100vh;
+ 
+
+}
+.uno{
+	  position: relative;
+		  padding:24% 0px 24% 0px;
+	width:100%;
+	display:block;
+height:100vh;
+}
+
+.bgimg-1 {
+position:fixed;
+z-index:-1;
+  background-image: url("images/1.jpg");
+
+
+}
+
+.bgimg-2 {
+  background-image: url("images/2.jpg");
+  position: relative;
+
+}
+
+.bgimg-3 {
+  background-image: url("images/3.jpg");
+ 
+  position: relative;
+}
+
+.caption {
+
+position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+
+
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+	text-align:center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.blanco{color: #777;
+background-color:#fff;
+padding:50px 10%;text-align: justify;
+display:block;
+margin:0px 0px 0px 0px;}
+
+.negro{color:#ddd;background-color:#282E34;padding:50px 10%;text-align: justify;
+margin:0px 0px 0px 0px;}
+
+.nose{background-color:transparent;
+color: #000;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.noche{
+background-color:transparent;
+font-size:25px;
+color: #f7f7f7;
+  padding: 18px;
+  letter-spacing: 10px;
+	}
+
+
+
