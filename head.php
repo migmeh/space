@@ -4,7 +4,7 @@
 
       <?php
 	error_reporting(E_ERROR | E_WARNING | E_PARSE);
-  $version="?7";
+  $version="?22";
   ?>  
 
 

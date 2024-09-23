@@ -4,11 +4,8 @@ a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 a:active{text-decoration: none;}
 
-
-
 .s{clear: both; display:block;}
 .imagen{max-width:100%;}
-
 
 
 body{
@@ -17,13 +14,7 @@ font-family: Century Gothic, Arial;
     color:#FFF;
 	 margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
-
 }
-
-
-
-
- 
 
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -33,24 +24,22 @@ font-family: Century Gothic, Arial;
   background-repeat: no-repeat;
   background-size: cover;
   width:100%;
- height:100vh;
- 
-
+  height:100vh;
 }
+
+
 .uno{
 	  position: relative;
-		  padding:24% 0px 24% 0px;
-	width:100%;
-	display:block;
-height:100vh;
+		padding:24% 0px 24% 0px;
+	  width:100%;
+	  display:block;
+    height:100vh;
 }
 
 .bgimg-1 {
 position:fixed;
 z-index:-1;
   background-image: url("images/1.jpg");
-
-
 }
 
 .bgimg-2 {
@@ -61,20 +50,16 @@ z-index:-1;
 
 .bgimg-3 {
   background-image: url("images/3.jpg");
- 
   position: relative;
 }
 
 .caption {
-
 position: absolute;
   left: 0;
   top: 50%;
   width: 100%;
   text-align: center;
   color: #000;
-
-
 }
 
 .caption span.border {
@@ -95,17 +80,25 @@ h3 {
 
 .blanco{color: #777;
 background-color:#fff;
-padding:50px 10%;text-align: justify;
-display:block;
-margin:0px 0px 0px 0px;}
+}
 
-.negro{color:#ddd;background-color:#282E34;padding:50px 10%;text-align: justify;
-margin:0px 0px 0px 0px;}
+.negro{color:#ddd;
+  background-color:#282E34;
+ }
+
+.blanco, .negro{
+  text-align: justify;
+  display:block;
+  padding:50px 10% 50px 10%;
+  width:100%;
+  margin:0px 0px 0px 0px;
+}
 
 .nose{background-color:transparent;
 color: #000;
-  padding: 18px;
+  padding: 18px 18px 18px 18px;
   font-size: 25px;
+  width:100%;
   letter-spacing: 10px;
 }
 
@@ -113,9 +106,26 @@ color: #000;
 background-color:transparent;
 font-size:25px;
 color: #f7f7f7;
-  padding: 18px;
+  padding: 18px 18px 18px 18px;
+  width:100%;
   letter-spacing: 10px;
 	}
 
 
 
+  @media (max-width: 768px) {
+    /* Adjust background attachment for mobile */
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll; /* Change to scroll for better responsiveness */
+    }
+
+  
+    /* Adjust padding for smaller screens */
+    .blanco, .negro{
+      padding:50px 10px 50px 10px;
+      text-align: justify;
+      display:block;
+      width:100%;
+      margin:0px 0px 0px 0px;}
+      
+  }
