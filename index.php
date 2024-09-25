@@ -52,7 +52,10 @@
 <div class="uno">
 <div class="bgimg-1"></div>
   <div class="caption">
-    <span class="border"> <?php echo $_SERVER["HTTP_HOST"];?></span>
+     <!--
+    <span class="border"><?php echo $_SERVER["HTTP_HOST"];?></span>
+-->
+<span class="border">Space</span>
   </div>
 
  </div>
