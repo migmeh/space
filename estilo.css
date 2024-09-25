@@ -60,6 +60,7 @@ position: absolute;
   width: 100%;
   text-align: center;
   color: #000;
+  word-wrap: break-word;
 }
 
 .caption span.border {
